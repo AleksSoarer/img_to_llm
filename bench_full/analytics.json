@@ -1,0 +1,48 @@
+{
+  "model_stats": {
+    "nemotron": {
+      "total": 18,
+      "success": 18,
+      "fail": 0,
+      "success_rate": 1.0,
+      "fail_rate": 0.0
+    },
+    "gemini": {
+      "total": 18,
+      "success": 4,
+      "fail": 14,
+      "success_rate": 0.2222222222222222,
+      "fail_rate": 0.7777777777777778
+    },
+    "grok": {
+      "total": 18,
+      "success": 18,
+      "fail": 0,
+      "success_rate": 1.0,
+      "fail_rate": 0.0
+    }
+  },
+  "pair_stats": {
+    "nemotron_vs_grok": {
+      "pairs": 18,
+      "terrain_match": 11,
+      "terrain_match_rate": 0.6111111111111112,
+      "objects_overlap_avg": 0.3212962962962963,
+      "description_similarity_avg": 0.2620247805080076
+    },
+    "nemotron_vs_gemini": {
+      "pairs": 4,
+      "terrain_match": 3,
+      "terrain_match_rate": 0.75,
+      "objects_overlap_avg": 0.625,
+      "description_similarity_avg": 0.3502356787664931
+    },
+    "grok_vs_gemini": {
+      "pairs": 4,
+      "terrain_match": 4,
+      "terrain_match_rate": 1.0,
+      "objects_overlap_avg": 0.55,
+      "description_similarity_avg": 0.32722331321185527
+    }
+  }
+}
